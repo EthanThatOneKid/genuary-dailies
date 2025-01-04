@@ -2,28 +2,53 @@
 	const currentYear = new Date().getFullYear();
 </script>
 
-<div class="flex min-h-screen flex-col bg-slate-50">
-	<header class="border-b bg-white">
-		<nav class="container mx-auto flex h-16 items-center justify-between px-4">
-			<a href="/" class="text-2xl font-bold text-slate-900 hover:text-slate-700">
-				Genuary Dailies
-			</a>
-			<a
-				href="/leaderboard"
-				class="px-4 py-2 text-sm font-medium text-slate-900 hover:text-slate-700"
-			>
-				Leaderboard
-			</a>
-		</nav>
-	</header>
+<main class="container mx-auto flex-1 space-y-12 px-4 py-8">
+	<section class="mx-auto max-w-xl space-y-6">
+		<h1 class="text-center text-4xl font-bold text-slate-900">Genuary Dailies</h1>
 
-	<main class="container mx-auto flex-1 space-y-12 px-4 py-8">
-		<section class="mx-auto max-w-xl space-y-6">
-			<h1 class="text-center text-4xl font-bold text-slate-900">Share Your Genuary Art</h1>
+		<form method="GET" action="/search" class="space-y-4 rounded-lg bg-white p-6 shadow-sm">
+			<div class="space-y-2">
+				<div
+					class="flex items-center rounded-md bg-white pl-3 outline outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600"
+				>
+					<div class="shrink-0 select-none text-base text-gray-500 sm:text-sm/6">@</div>
+					<input
+						type="text"
+						name="username"
+						id="username"
+						class="block min-w-0 grow py-1.5 pl-1 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"
+						placeholder="username.bsky.social"
+					/>
+					<div class="grid shrink-0 grid-cols-1 focus-within:relative">
+						<select
+							id="year"
+							name="year"
+							aria-label="Year"
+							class="col-start-1 row-start-1 w-full appearance-none rounded-md py-1.5 pl-3 pr-7 text-base text-gray-500 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+							value={currentYear}
+						>
+							{#each Array(currentYear - 2022 + 1)
+								.fill(0)
+								.map((_, i) => currentYear - i) as year}
+								<option value={year}>{year}</option>
+							{/each}
+						</select>
+						<svg
+							class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4"
+							viewBox="0 0 16 16"
+							fill="currentColor"
+							aria-hidden="true"
+							data-slot="icon"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+					</div>
 
-			<form method="GET" action="/search" class="space-y-4 rounded-lg bg-white p-6 shadow-sm">
-				<div class="space-y-2">
-					<label for="username" class="block text-sm font-medium text-slate-700">
+					<!-- <label for="username" class="block text-sm font-medium text-slate-700">
 						Bluesky Username
 					</label>
 					<input
@@ -35,7 +60,7 @@
 						placeholder="@username.bsky.social"
 					/>
 				</div>
-
+	
 				<div class="space-y-2">
 					<label for="year" class="block text-sm font-medium text-slate-700"> Year </label>
 					<input
@@ -46,6 +71,7 @@
 						required
 						class="w-full rounded-md border border-slate-300 px-3 py-2"
 					/>
+				</div> -->
 				</div>
 
 				<button
@@ -54,49 +80,21 @@
 				>
 					Search Posts
 				</button>
-			</form>
-		</section>
-
-		<section class="prose prose-slate mx-auto max-w-2xl">
-			<h2 class="text-2xl font-bold text-slate-900">What is Genuary?</h2>
-			<p class="text-slate-700">
-				GENUARY is an artificially generated month of time where we build code that makes beautiful
-				things. It's happening during the month of January every year.
-			</p>
-
-			<h3 class="text-xl font-semibold text-slate-900">How to Participate</h3>
-			<ol class="list-inside list-decimal space-y-2 text-slate-700">
-				<li>Create generative art based on the daily prompts</li>
-				<li>Share your work on Bluesky with the #genuary hashtag</li>
-				<li>Use this site to track and showcase your daily creations</li>
-			</ol>
-
-			<p class="text-slate-700">
-				Each day has a different prompt. You don't have to follow the prompt exactly. You can
-				interpret it however you want. The goal is to create something every day.
-			</p>
-		</section>
-	</main>
-
-	<footer class="border-t bg-white">
-		<div class="container mx-auto px-4 py-8">
-			<div class="space-y-4 text-center">
-				<p class="text-sm text-slate-600">
-					View the source code on
-					<a
-						href="https://github.com/EthanThatOneKid/genuary-dailies"
-						class="text-blue-600 hover:underline"
-					>
-						GitHub
-					</a>
-				</p>
-				<p class="text-sm text-slate-600">
-					GENUARY was created by
-					<a href="https://genuary.art" class="text-blue-600 hover:underline">
-						the GENUARY team
-					</a>. This website is not affiliated with the Genuary team.
-				</p>
 			</div>
-		</div>
-	</footer>
-</div>
+		</form>
+	</section>
+
+	<section class="prose prose-slate mx-auto max-w-2xl">
+		<h2 class="text-2xl font-bold text-slate-900">Genuary?</h2>
+		<blockquote class="border-l-4 border-blue-600 pl-4 text-slate-700">
+			GENUARY is an artificially generated month of time where we build code that makes beautiful
+			things.
+			<br />
+			GENUARY happens on all the social media sites at once. If you like, you can use hashtags to keep
+			track of things: share your work and tag it with #genuary and #genuary2025 and also #genuary1,
+			#genuary2, etc, depending on which prompt it is.
+			<br />-
+			<a href="https://genuary.art" class="text-blue-600 hover:underline">genuary.art</a>
+		</blockquote>
+	</section>
+</main>
