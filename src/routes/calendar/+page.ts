@@ -1,5 +1,5 @@
 import type { PageLoad } from './$types';
-import { getBskyPosts } from './search';
+import { getBskyPosts } from './search/bsky';
 
 export const load: PageLoad = async ({ url }) => {
 	const username = url.searchParams.get('username');

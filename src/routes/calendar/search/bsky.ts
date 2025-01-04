@@ -1,9 +1,10 @@
 import { XRPC, simpleFetchHandler } from '@atcute/client';
 import '@atcute/bluesky/lexicons';
+import type { GenuaryService } from './types';
 
 const xrpc = new XRPC({ handler: simpleFetchHandler({ service: 'https://api.bsky.app' }) });
 
-export async function getBskyPosts(username: string, year: number) {
+export const getBskyPosts: GenuaryService = async (username: string, year: number) => {
 	const { data } = await search(username, year);
 	return Object.fromEntries(
 		Object.entries(
@@ -13,7 +14,7 @@ export async function getBskyPosts(username: string, year: number) {
 			posts?.map((post) => bksyPostURItoURL(username, post.uri)) ?? []
 		])
 	);
-}
+};
 
 async function search(username: string, year: number) {
 	const tag = `genuary${year}`;
