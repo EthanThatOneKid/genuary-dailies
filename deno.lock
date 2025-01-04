@@ -1,6 +1,8 @@
 {
   "version": "4",
   "specifiers": {
+    "npm:@atcute/bluesky@^1.0.11": "1.0.11_@atcute+client@2.0.6",
+    "npm:@atcute/client@^2.0.6": "2.0.6",
     "npm:@eslint/compat@^1.2.3": "1.2.4_eslint@9.17.0",
     "npm:@eslint/js@^9.17.0": "9.17.0",
     "npm:@prisma/client@^6.1.0": "6.1.0_prisma@6.1.0",
@@ -35,6 +37,15 @@
         "@jridgewell/gen-mapping",
         "@jridgewell/trace-mapping"
       ]
+    },
+    "@atcute/bluesky@1.0.11_@atcute+client@2.0.6": {
+      "integrity": "sha512-j4wLJIzKWh0gmQZ7s5svhEVRThlzqyfstbM0qM/H1Y+ZIQESx5HtVu+390zAWzZoEKZYSyTM9+ctY39OiEGDQw==",
+      "dependencies": [
+        "@atcute/client"
+      ]
+    },
+    "@atcute/client@2.0.6": {
+      "integrity": "sha512-mhdqEicGUx0s5HTFOLpz91rcLS9j/g63de0nmAqv7blhU3j+xBf4le54qr2YIXNfnReZI7EwLYLX/YIBez4LGA=="
     },
     "@esbuild/aix-ppc64@0.21.5": {
       "integrity": "sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ=="
@@ -1744,6 +1755,8 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
+        "npm:@atcute/bluesky@^1.0.11",
+        "npm:@atcute/client@^2.0.6",
         "npm:@eslint/compat@^1.2.3",
         "npm:@eslint/js@^9.17.0",
         "npm:@prisma/client@^6.1.0",

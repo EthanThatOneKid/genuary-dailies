@@ -1,6 +1,7 @@
 import type { PageLoad } from './$types';
+import { getBskyPosts } from './search';
 
-export const load: PageLoad = ({ url }) => {
+export const load: PageLoad = async ({ url }) => {
 	const username = url.searchParams.get('username');
 	if (username === null) {
 		throw new Error('username is required');
@@ -12,5 +13,6 @@ export const load: PageLoad = ({ url }) => {
 	}
 
 	const year = parseInt(yearString);
-	return { username, year };
+	const bskyPosts = await getBskyPosts(username, year);
+	return { username, year, bskyPosts };
 };

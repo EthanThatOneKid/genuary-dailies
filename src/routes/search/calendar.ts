@@ -4,7 +4,7 @@ export function generateCalendar(year: number, month: number): Array<Array<numbe
 	const daysInMonth = lastDay.getDate();
 	const startingDay = firstDay.getDay();
 
-	let calendar = [];
+	const calendar: Array<Array<number | null>> = [];
 	let week = new Array(7).fill(null);
 	for (let i = 0; i < startingDay; i++) {
 		week[i] = null;

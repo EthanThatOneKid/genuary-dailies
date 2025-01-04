@@ -28,8 +28,9 @@ This project uses [SvelteKit](https://svelte.dev/docs/kit/introduction), created
 using the command `npx sv create .` using the [Deno](https://deno.com/)
 JavaScript runtime.
 
-Once you've created a project and installed dependencies with
-`deno task prebuild`, start a development server:
+Install dependencies with `deno task prebuild`.
+
+Start a development server:
 
 ```bash
 deno task dev

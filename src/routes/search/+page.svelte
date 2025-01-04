@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>{data.username} - {data.year}</title>
+	<title>@{data.username} - {data.year}</title>
 	<meta name="description" content="Genuary dailies for @{data.username} in {data.year}" />
 </svelte:head>
 
@@ -29,9 +29,20 @@
 		{#each calendar as week}
 			{#each week as day}
 				{#if day !== null}
-					<div class="h-32 overflow-hidden border p-2">
-						<span class="text-sm">{day}</span>
-					</div>
+					{#if data.bskyPosts[day]}
+						<a
+							href={data.bskyPosts[day].at(0)}
+							target="_blank"
+							rel="noopener noreferrer"
+							class="block h-32 overflow-hidden border bg-blue-100 p-2"
+						>
+							<span class="text-sm text-blue-600">{day}</span>
+						</a>
+					{:else}
+						<div class="h-32 overflow-hidden border bg-gray-100 p-2">
+							<span class="text-sm">{day}</span>
+						</div>
+					{/if}
 				{:else}
 					<div class="h-32 p-2"></div>
 				{/if}
