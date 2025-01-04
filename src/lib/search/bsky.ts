@@ -1,10 +1,10 @@
 import { XRPC, simpleFetchHandler } from '@atcute/client';
+import type { GenuarySearcher } from './searcher';
 import '@atcute/bluesky/lexicons';
-import type { GenuaryService } from './types';
 
 const xrpc = new XRPC({ handler: simpleFetchHandler({ service: 'https://api.bsky.app' }) });
 
-export const getBskyPosts: GenuaryService = async (username: string, year: number) => {
+export const getBskyPosts: GenuarySearcher = async (username: string, year: number) => {
 	const { data } = await search(username, year);
 	return Object.fromEntries(
 		Object.entries(

@@ -29,9 +29,9 @@
 		{#each calendar as week}
 			{#each week as day}
 				{#if day !== null}
-					{#if data.bskyPosts[day]}
+					{#if data.posts[day]}
 						<a
-							href={data.bskyPosts[day].at(0)}
+							href={data.posts[day].at(0)}
 							target="_blank"
 							rel="noopener noreferrer"
 							class="block h-32 overflow-hidden border bg-blue-100 p-2"

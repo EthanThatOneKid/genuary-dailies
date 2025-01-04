@@ -22,6 +22,21 @@ _Genuary Dailies_ is a submission for
 [SvelteHack 2024](https://hack.sveltesociety.dev/2024) (Oct 19, 2024 through Jan
 10, 2025).
 
+## Technical overview
+
+_Genuary Dailies_ is a web app that visualizes Genuary posts of a user on social media.
+
+Technologies used:
+
+- [Svelte](https://svelte.dev/)
+- [SvelteKit](https://svelte.dev/docs/kit/introduction)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Deno](https://deno.com/)
+- [Deno Deploy](https://deno.com/deploy)
+- [Bluesky HTTP API](https://docs.bsky.app/docs/category/http-reference)
+- [Twitter v2 API](https://developer.x.com/en/docs/x-api)
+
 ## Development
 
 This project uses [SvelteKit](https://svelte.dev/docs/kit/introduction), created

@@ -1,4 +1,4 @@
-export interface GenuaryService {
+export interface GenuarySearcher {
 	(username: string, year: number): Promise<GenuaryData>;
 }
 

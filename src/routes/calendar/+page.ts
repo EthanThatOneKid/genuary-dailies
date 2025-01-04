@@ -1,5 +1,6 @@
 import type { PageLoad } from './$types';
-import { getBskyPosts } from './search/bsky';
+import { getBskyPosts } from '$lib/search/bsky';
+import { getTwitterPosts } from '$lib/search/twitter';
 
 export const load: PageLoad = async ({ url }) => {
 	const username = url.searchParams.get('username');
@@ -13,6 +14,25 @@ export const load: PageLoad = async ({ url }) => {
 	}
 
 	const year = parseInt(yearString);
-	const bskyPosts = await getBskyPosts(username, year);
-	return { username, year, bskyPosts };
+
+	const platform = url.searchParams.get('platform') ?? 'bsky';
+	const posts = await getPosts(username, year, platform);
+
+	return { username, year, posts };
 };
+
+function getPosts(username: string, year: number, platform: string) {
+	switch (platform) {
+		case 'bsky': {
+			return getBskyPosts(username, year);
+		}
+
+		case 'twitter': {
+			return getTwitterPosts(username, year);
+		}
+
+		default: {
+			throw new Error('Invalid platform');
+		}
+	}
+}
