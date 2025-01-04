@@ -1,38 +1,52 @@
-# sv
+# Genuary Dailies
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Visualizes Genuary posts of a user on social media.
 
-## Creating a project
+## Genuary
 
-If you're seeing this, you've probably already done this step. Congrats!
+> GENUARY is an artificially generated month of time where we build code that makes beautiful things.
+>
+> GENUARY happens on all the social media sites at once. If you like, you can use hashtags to keep track of things: share your work and tag it with **#genuary** and **#genuary2025** and also **#genuary1**, **#genuary2**, etc, depending on which prompt it is.
+>
+> \- [genuary.art](https://genuary.art)
+
+_Genuary Dailies_ is not affiliated with **Genuary** or its creators.
+
+## SvelteHack 2024
+
+_Genuary Dailies_ is a submission for [SvelteHack 2024](https://hack.sveltesociety.dev/2024) (Oct 19, 2024 through Jan 10, 2025).
+
+## Development
+
+This project uses [SvelteKit](https://svelte.dev/docs/kit/introduction), created using the command `npx sv create .` using the [Deno](https://deno.com/) JavaScript runtime.
+
+Once you've created a project and installed dependencies with `deno task prebuild`, start a development server:
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
+deno task dev
 
 # or start the server and open the app in a new browser tab
-npm run dev -- --open
+deno task dev -- --open
 ```
 
-## Building
+Format with `deno task format` and lint with `deno task lint`. Check Svelte files with `deno task check`.
+
+You can preview the production build with `deno task preview`.
+
+### Building
 
 To create a production version of your app:
 
 ```bash
-npm run build
+deno task build
 ```
 
-You can preview the production build with `npm run preview`.
+### Deployment
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+[![Deploy](https://github.com/EthanThatOneKid/genuary-dailies/actions/workflows/deploy.yaml/badge.svg)](https://github.com/EthanThatOneKid/genuary-dailies/actions/workflows/deploy.yaml)
+
+_Genuary Dailies_ is deployed to [Deno Deploy](https://deno.com/deploy) using a GitHub workflow ([source](.github/workflows/deploy.yaml)).
+
+---
+
+Developed with ❄️ by [**@EthanThatOneKid**](https://github.com/EthanThatOneKid)
