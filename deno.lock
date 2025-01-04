@@ -11,6 +11,7 @@
     "npm:@sveltejs/adapter-node@^5.2.11": "5.2.11_@sveltejs+kit@2.15.1__@sveltejs+vite-plugin-svelte@4.0.4___svelte@5.16.1____acorn@8.14.0___vite@5.4.11__svelte@5.16.1___acorn@8.14.0__vite@5.4.11_rollup@4.29.1_@sveltejs+vite-plugin-svelte@4.0.4__svelte@5.16.1___acorn@8.14.0__vite@5.4.11_svelte@5.16.1__acorn@8.14.0_vite@5.4.11",
     "npm:@sveltejs/kit@2": "2.15.1_@sveltejs+vite-plugin-svelte@4.0.4__svelte@5.16.1___acorn@8.14.0__vite@5.4.11_svelte@5.16.1__acorn@8.14.0_vite@5.4.11",
     "npm:@sveltejs/vite-plugin-svelte@4": "4.0.4_svelte@5.16.1__acorn@8.14.0_vite@5.4.11",
+    "npm:@types/node@^22.10.5": "22.10.5",
     "npm:autoprefixer@^10.4.20": "10.4.20_postcss@8.4.49",
     "npm:eslint-config-prettier@^9.1.0": "9.1.0_eslint@9.17.0",
     "npm:eslint-plugin-svelte@^2.36.0": "2.46.1_eslint@9.17.0_svelte@5.16.1__acorn@8.14.0_postcss@8.4.49",
@@ -455,6 +456,12 @@
     },
     "@types/json-schema@7.0.15": {
       "integrity": "sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA=="
+    },
+    "@types/node@22.10.5": {
+      "integrity": "sha512-F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==",
+      "dependencies": [
+        "undici-types"
+      ]
     },
     "@types/resolve@1.20.2": {
       "integrity": "sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q=="
@@ -1683,6 +1690,9 @@
     "typescript@5.7.2": {
       "integrity": "sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg=="
     },
+    "undici-types@6.20.0": {
+      "integrity": "sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg=="
+    },
     "update-browserslist-db@1.1.1_browserslist@4.24.3": {
       "integrity": "sha512-R8UzCaa9Az+38REPiJ1tXlImTJXlVfgHZsglwBD/k6nj76ctsH1E3q4doGrukiLQd3sGQYu56r5+lo5r94l29A==",
       "dependencies": [
@@ -1766,6 +1776,7 @@
         "npm:@sveltejs/adapter-node@^5.2.11",
         "npm:@sveltejs/kit@2",
         "npm:@sveltejs/vite-plugin-svelte@4",
+        "npm:@types/node@^22.10.5",
         "npm:autoprefixer@^10.4.20",
         "npm:eslint-config-prettier@^9.1.0",
         "npm:eslint-plugin-svelte@^2.36.0",
