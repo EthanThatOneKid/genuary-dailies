@@ -296,7 +296,7 @@
         "@rollup/pluginutils",
         "commondir",
         "estree-walker",
-        "fdir@6.4.2_picomatch@4.0.2",
+        "fdir",
         "is-reference@1.2.1",
         "magic-string",
         "picomatch@4.0.2",
@@ -945,9 +945,6 @@
         "reusify"
       ]
     },
-    "fdir@6.4.2": {
-      "integrity": "sha512-KnhMXsKSPZlAhp7+IjUkRZKPb4fUyccpDrdFXbi4QL1qkmFh9kVY09Yox+n4MaOb3lHZ1Tv829C3oaaXoMYPDQ=="
-    },
     "fdir@6.4.2_picomatch@4.0.2": {
       "integrity": "sha512-KnhMXsKSPZlAhp7+IjUkRZKPb4fUyccpDrdFXbi4QL1qkmFh9kVY09Yox+n4MaOb3lHZ1Tv829C3oaaXoMYPDQ==",
       "dependencies": [
@@ -1562,7 +1559,7 @@
       "dependencies": [
         "@jridgewell/trace-mapping",
         "chokidar@4.0.3",
-        "fdir@6.4.2",
+        "fdir",
         "picocolors",
         "sade",
         "svelte",

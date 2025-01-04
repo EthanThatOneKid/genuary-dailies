@@ -23,9 +23,7 @@ async function search(username: string, year: number) {
 }
 
 function bksyPostURItoURL(username: string, uri: string) {
-	const match = uri.match(
-		/at\:\/\/(did\:plc\:[a-z0-9]{24})\/app\.bsky\.feed\.post\/([a-z0-9]{13})/
-	);
+	const match = uri.match(/at:\/\/(did:plc:[a-z0-9]{24})\/app\.bsky\.feed\.post\/([a-z0-9]{13})/);
 	if (match === null) {
 		throw new Error('Invalid post URI');
 	}
