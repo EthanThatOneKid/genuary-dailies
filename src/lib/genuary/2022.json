@@ -1,0 +1,163 @@
+[
+	{
+		"date": 1,
+		"credit": "<a href=\"https://twitter.com/mjrlowe\">Michael Lowe</a>",
+		"description": "Draw 10,000 of something.",
+		"info": "<a href=\"https://www.youtube.com/watch?v=ILMEVnVD8m8\">John Green drawing 170,000 circles</a>"
+	},
+	{
+		"date": 2,
+		"credit": "<a href=\"https://twitter.com/annaluciacodes\">Anna Lucia</a>",
+		"description": "Dithering.",
+		"info": "<a href=\"https://codegolf.stackexchange.com/questions/26554/dither-a-grayscale-image\">Code Golf: Dither a Grayscale Image</a><br><a href=\"https://surma.dev/things/ditherpunk/\">The article I wish I had about monochrome image dithering</a><br><a href=\"https://bisqwit.iki.fi/story/howto/dither/jy/\">Joel Yliluoma's arbitrary-palette positional dithering algorithm</a><br><a href=\"http://momentsingraphics.de/BlueNoise.html\">Free blue noise textures</a><br><a href=\"http://web.archive.org/web/20190316064436/http://www.efg2.com/Lab/Library/ImageProcessing/DHALF.TXT\">DHALF.TXT</a>"
+	},
+	{
+		"date": 3,
+		"credit": "<a href=\"https://twitter.com/makIO135/\">Lionel Radisson</a>",
+		"description": "Space."
+	},
+	{
+		"date": 4,
+		"credit": "<a href=\"https://twitter.com/macTuitui\">Alexis André</a>",
+		"description": "The next next Fidenza.",
+		"info": "<a href=\"https://tylerxhobbs.com/fidenza\">Tyler Hobbs' Fidenza</a>"
+	},
+	{
+		"date": 5,
+		"credit": "<a href=\"https://twitter.com/thomasp85\">Thomas Lin Pedersen</a>",
+		"description": "Destroy a square."
+	},
+	{
+		"date": 6,
+		"credit": "<a href=\"https://www.instagram.com/bb_bygones\">Alex Naka</a>",
+		"description": "Trade styles with a friend."
+	},
+	{
+		"date": 7,
+		"credit": "<a href=\"https://twitter.com/KaufmanRoni\">Roni Kaufman</a>",
+		"description": "Sol LeWitt Wall Drawing.",
+		"info": "<a href=\"https://massmoca.org/sol-lewitt/\">Sol LeWitt: A Wall Drawing Retrospective</a><br><a href=\"https://observer.com/2012/10/here-are-the-instructions-for-sol-lewitts-1971-wall-drawing-for-the-school-of-the-mfa-boston/\">Here Are the Instructions for Sol LeWitt's 1971 Wall Drawing for the School of the MFA Boston</a><br><a href=\"https://publicdelivery.org/sol-lewitt-wall-drawings/\">Why are Sol LeWitt's wall drawings so influential?</a><br><a href=\"https://illmindofryza1.wordpress.com/2016/08/17/sol-lewitt-wall-painting-118/\">Sol Lewitt-Wall Painting 118</a>"
+	},
+	{
+		"date": 8,
+		"credit": "<a href=\"https://twitter.com/bruceHolmer\">Bruce Holmer</a>",
+		"description": "Single curve only."
+	},
+	{
+		"date": 9,
+		"credit": "<a href=\"https://twitter.com/makIO135/\">Lionel Radisson</a>",
+		"description": "Architecture."
+	},
+	{
+		"date": 10,
+		"credit": "<a href=\"https://twitter.com/KaufmanRoni\">Roni Kaufman</a>",
+		"description": "Machine learning, wrong answers only."
+	},
+	{
+		"date": 11,
+		"credit": "<a href=\"https://twitter.com/makIO135/\">Lionel Radisson</a>",
+		"description": "No computer."
+	},
+	{
+		"date": 12,
+		"credit": "<a href=\"https://twitter.com/rvig_art\">Richard Vigniel</a>",
+		"description": "Packing (squares, circles, any shape…)"
+	},
+	{
+		"date": 13,
+		"credit": "<a href=\"https://twitter.com/bendotk\">Ben Kovach</a>",
+		"description": "800x80.",
+		"info": "<a href=\"https://twitter.com/hashtag/800x80\">#800x80</a>"
+	},
+	{
+		"date": 14,
+		"credit": "<a href=\"https://twitter.com/deviparikh\">Devi Parikh</a>",
+		"description": "Something you'd never make."
+	},
+	{
+		"date": 15,
+		"credit": "<a href=\"https://twitter.com/thomasp85\">Thomas Lin Pedersen</a>",
+		"description": "Sand."
+	},
+	{
+		"date": 16,
+		"credit": "<a href=\"https://www.instagram.com/quagnz\">Quag</a>",
+		"description": "Color gradients gone wrong."
+	},
+	{
+		"date": 17,
+		"credit": "<a href=\"https://twitter.com/ojelibalon\">Deniz</a>",
+		"description": "3 colors."
+	},
+	{
+		"date": 18,
+		"credit": "<a href=\"https://twitter.com/generateme_blog\">GenerateMe</a>",
+		"description": "VHS."
+	},
+	{
+		"date": 19,
+		"credit": "<a href=\"https://twitter.com/piterpasma\">Piter Pasma</a>",
+		"description": "Use text/typography."
+	},
+	{
+		"date": 20,
+		"credit": "<a href=\"https://twitter.com/artbysabin\">Sabin T</a>",
+		"description": "Make a sea of shapes."
+	},
+	{
+		"date": 21,
+		"credit": "<a href=\"https://twitter.com/mjrlowe\">Michael Lowe</a>",
+		"description": "Combine two (or more) of your pieces from previous days to make a new piece."
+	},
+	{
+		"date": 22,
+		"credit": "<a href=\"https://twitter.com/mjrlowe\">Michael Lowe</a>",
+		"description": "Make something that will look completely different in a year."
+	},
+	{
+		"date": 23,
+		"credit": "<a href=\"https://twitter.com/lalabadie\">Louis-André Labadie</a>",
+		"description": "Abstract vegetation."
+	},
+	{
+		"date": 24,
+		"credit": "<a href=\"https://www.instagram.com/quagnz\">Quag</a>",
+		"description": "Create your own pseudo-random number generator and visually check the results."
+	},
+	{
+		"date": 25,
+		"credit": "<a href=\"https://twitter.com/josVromans\">Jos Vromans</a>",
+		"description": "Perspective."
+	},
+	{
+		"date": 26,
+		"credit": "<a href=\"https://www.instagram.com/quagnz\">Quag</a>",
+		"description": "Airport carpet.",
+		"info": "<a href=\"https://www.google.com/search?q=airport+carpet&amp;tbm=isch\">Google image search</a><br><a href=\"https://www.bing.com/images/search?q=airport+carpet\">Bing image search</a><br><a href=\"https://en.wikipedia.org/wiki/Portland_International_Airport_carpet\">Portland International Airport carpet</a><br><a href=\"https://www.instagram.com/myhotelcarpet/\">Hotel carpets photographed by Bill Young</a>"
+	},
+	{
+		"date": 27,
+		"credit": "<a href=\"https://twitter.com/mjrlowe\">Michael Lowe</a>",
+		"description": "<b style=\"background-color: #2E294E\">#2E294E</b><b style=\"background-color: #541388\">#541388</b><b style=\"background-color: #F1E9DA; color:#161616\">#F1E9DA</b><b style=\"background-color: #FFD400\">#FFD400</b><b style=\"background-color: #D90368\">#D90368</b>"
+	},
+	{
+		"date": 28,
+		"credit": "<a href=\"https://twitter.com/mjrlowe\">Michael Lowe</a>",
+		"description": "Self portrait."
+	},
+	{
+		"date": 29,
+		"credit": "<a href=\"https://www.twitter.com/generativecoll\">Chris Ried</a>",
+		"description": "Isometric perspective."
+	},
+	{
+		"date": 30,
+		"credit": "<a href=\"https://twitter.com/Unordered__list\">Bart Simons</a>",
+		"description": "Organic looking output using only rectangular shapes."
+	},
+	{
+		"date": 31,
+		"credit": "<a href=\"https://twitter.com/mjrlowe\">Michael Lowe</a>",
+		"description": "Negative space."
+	}
+]

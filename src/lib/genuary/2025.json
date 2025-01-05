@@ -1,0 +1,160 @@
+[
+	{
+		"date": 1,
+		"credit": "<a href=\"https://x.com/stranger_intheq\">Stranger in the Q</a>",
+		"description": "Vertical or horizontal lines only."
+	},
+	{
+		"date": 2,
+		"credit": "<a href=\"https://monokai.com/\">Monokai</a>",
+		"description": "Layers upon layers upon layers."
+	},
+	{
+		"date": 3,
+		"credit": "<a href=\"https://ronikaufman.github.io/\">Roni Kaufman</a>",
+		"description": "Exactly 42 lines of code."
+	},
+	{
+		"date": 4,
+		"credit": "<a href=\"https://x.com/stranger_intheq\">Stranger in the Q</a>",
+		"description": "Black on black."
+	},
+	{
+		"date": 5,
+		"credit": "<a href=\"https://linktr.ee/p1x3lboy\">P1xelboy</a>",
+		"description": "Isometric Art (No vanishing points)."
+	},
+	{
+		"date": 6,
+		"credit": "<a href=\"https://jbarbeau.art/\">Jonathan Barbeau</a>",
+		"description": "Make a landscape using only <a href=\"https://en.wikipedia.org/wiki/Geometric_primitive\">primitive shapes</a>."
+	},
+	{
+		"date": 7,
+		"credit": "<a href=\"https://art.camilleroux.com/\">Camille Roux</a>",
+		"description": "Use software that is not intended to create art or images."
+	},
+	{
+		"date": 8,
+		"credit": "<a href=\"https://twitter.com/piterpasma\">Piter Pasma</a>",
+		"description": "Draw one million of something."
+	},
+	{
+		"date": 9,
+		"credit": "<a href=\"https://twitter.com/piterpasma\">Piter Pasma</a>",
+		"description": "The textile design patterns of public transport seating."
+	},
+	{
+		"date": 10,
+		"credit": "<a href=\"https://darienbrito.com/\">Darien Brito</a>",
+		"description": "You can only use TAU in your code, no other number allowed.",
+		"info": "TAU = 2 * pi = 6.2831853…"
+	},
+	{
+		"date": 11,
+		"credit": "<a href=\"#\">Rachel Ehrlich (Joy of Randomness)</a> and the <a href=\"https://www.recurse.com/\">Recurse Center</a>",
+		"description": "Impossible day - Try to do something that feels impossible for you to do. Maybe it is impossible. Maybe it's too ambitious. Maybe it's something you know nothing about how to accomplish."
+	},
+	{
+		"date": 12,
+		"credit": "<a href=\"https://melissawiederrecht.com/\">Melissa Wiederrecht</a>",
+		"description": "Subdivision."
+	},
+	{
+		"date": 13,
+		"credit": "<a href=\"https://heeey.art/\">Heeey</a>",
+		"description": "Triangles and nothing else."
+	},
+	{
+		"date": 14,
+		"credit": "<a href=\"https://melissawiederrecht.com/\">Melissa Wiederrecht</a>",
+		"description": "Pure black and white. No gray."
+	},
+	{
+		"date": 15,
+		"credit": "<a href=\"https://melissawiederrecht.com/\">Melissa Wiederrecht</a>",
+		"description": "Design a rug."
+	},
+	{
+		"date": 16,
+		"credit": "<a href=\"https://x.com/stranger_intheq\">Stranger in the Q</a>",
+		"description": "Generative palette."
+	},
+	{
+		"date": 17,
+		"credit": "<a href=\"https://ronikaufman.github.io/\">Roni Kaufman</a>",
+		"description": "What happens if pi=4?"
+	},
+	{
+		"date": 18,
+		"credit": "<a href=\"https://melissawiederrecht.com/\">Melissa Wiederrecht</a>",
+		"description": "What does wind look like?"
+	},
+	{
+		"date": 19,
+		"credit": "<a href=\"https://melissawiederrecht.com/\">Melissa Wiederrecht</a>",
+		"description": "Op Art."
+	},
+	{
+		"date": 20,
+		"credit": "<a href=\"https://melissawiederrecht.com/\">Melissa Wiederrecht</a>",
+		"description": "Generative Architecture."
+	},
+	{
+		"date": 21,
+		"credit": "<a href=\"https://darienbrito.com/\">Darien Brito</a>",
+		"description": "Create a collision detection system (no libraries allowed)."
+	},
+	{
+		"date": 22,
+		"credit": "<a href=\"https://melissawiederrecht.com/\">Melissa Wiederrecht</a>",
+		"description": "Gradients only."
+	},
+	{
+		"date": 23,
+		"credit": "<a href=\"https://melissawiederrecht.com/\">Melissa Wiederrecht</a>, <a href=\"https://ronikaufman.github.io/\">Roni Kaufman</a>",
+		"description": "Inspired by brutalism."
+	},
+	{
+		"date": 24,
+		"credit": "<a href=\"https://www.instagram.com/bruceholmer/\">Bruce Holmer</a>",
+		"description": "Geometric art - pick either a circle, rectangle, or triangle and use only that geometric shape."
+	},
+	{
+		"date": 25,
+		"credit": "<a href=\"https://www.instagram.com/bruceholmer/\">Bruce Holmer</a>, <a href=\"#\">Chris Barber (code_rgb)</a>, <a href=\"https://heeey.art/\">Heeey</a>, <a href=\"https://monokai.com/\">Monokai</a>",
+		"description": "One line that may or may not intersect itself"
+	},
+	{
+		"date": 26,
+		"credit": "<a href=\"https://melissawiederrecht.com/\">Melissa Wiederrecht</a>",
+		"description": "Symmetry."
+	},
+	{
+		"date": 27,
+		"credit": "<a href=\"https://melissawiederrecht.com/\">Melissa Wiederrecht</a>",
+		"description": "Make something interesting with no randomness or noise or trig."
+	},
+	{
+		"date": 28,
+		"credit": "<a href=\"https://www.fractalkitty.com/\">Sophia (fractal kitty)</a>",
+		"description": "Infinite Scroll."
+	},
+	{
+		"date": 29,
+		"credit": "<a href=\"https://melissawiederrecht.com/\">Melissa Wiederrecht</a>",
+		"description": "Grid-based graphic design."
+	},
+	{
+		"date": 30,
+		"credit": "<a href=\"https://melissawiederrecht.com/\">Melissa Wiederrecht</a>",
+		"description": "Abstract map.",
+		"info": "Not to be confused with <a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/AbstractMap.html\">AbstractMap</a>."
+	},
+	{
+		"date": 31,
+		"credit": "<a href=\"https://melissawiederrecht.com/\">Melissa Wiederrecht</a>",
+		"description": "Pixel sorting.",
+		"info": "You can sort pixels by weight, size, age, etc."
+	}
+]

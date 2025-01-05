@@ -13,7 +13,7 @@
 </svelte:head>
 
 <div class="mx-auto max-w-4xl p-4">
-	<h2 class="mb-4 text-2xl font-bold">
+	<h2 class="mb-4 text-center text-2xl font-bold">
 		<a
 			href="https://bsky.app/profile/{data.username}"
 			class="text-blue-600"
@@ -27,20 +27,29 @@
 			<div class="text-center font-semibold">{day}</div>
 		{/each}
 		{#each calendar as week}
-			{#each week as day}
-				{#if day !== null}
-					{#if data.posts[day]}
+			{#each week as date}
+				{#if date !== null}
+					{@const genuaryPrompt = data.prompts.find((p) => p.date === date)!}
+					{#if data.posts[date]}
 						<a
-							href={data.posts[day].at(0)}
+							href={data.posts[date].at(0)}
 							target="_blank"
 							rel="noopener noreferrer"
 							class="block h-32 overflow-hidden border bg-blue-100 p-2"
 						>
-							<span class="text-sm text-blue-600">{day}</span>
+							<span class="text-ellipsis text-sm text-blue-600"
+								>{date}<br /><span title={genuaryPrompt.description}
+									>{@html genuaryPrompt.description}</span
+								></span
+							>
 						</a>
 					{:else}
 						<div class="h-32 overflow-hidden border bg-gray-100 p-2">
-							<span class="text-sm">{day}</span>
+							<span class="text-ellipsis text-sm"
+								>{date}<br /><span title={genuaryPrompt.description}
+									>{@html genuaryPrompt.description}</span
+								></span
+							>
 						</div>
 					{/if}
 				{:else}

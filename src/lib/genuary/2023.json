@@ -1,0 +1,171 @@
+[
+	{
+		"date": 1,
+		"credit": "<a href=\"https://github.com/arikwex\">arikwex</a>, <a href=\"https://twitter.com/Reva_fyw\">Reva</a>",
+		"description": "Perfect loop / Infinite loop / endless GIFs",
+		"info": "<a href=\"https://giphy.com/search/perfect-loop\">Examples of perfect loops on Giphy</a><br>TIP, use ffmpeg to turn a bunch of PNG frames into an MP4:<br><code class=\"language-plaintext highlighter-rouge\">ffmpeg -r 30 -i \"frame%04d.png\" -pix_fmt yuv420p -movflags +faststart perfectloop.mp4</code>"
+	},
+	{
+		"date": 2,
+		"credit": "<a href=\"https://twitter.com/Hapiel\">Daniel Simu (hapiel)</a>",
+		"description": "Made in 10 minutes",
+		"info": "<a href=\"https://www.google.com/search?hl=en&q=timer%2010%20minutes\">Click here to find out how long 10 minutes take</a>"
+	},
+	{
+		"date": 3,
+		"credit": "<a href=\"https://twitter.com/generateme_blog\">generetame</a>",
+		"description": "Glitch Art",
+		"info": "<a href=\"https://en.wikipedia.org/wiki/Glitch_art\">Wikipedia: Glitch Art</a>"
+	},
+	{
+		"date": 4,
+		"credit": "<a href=\"https://twitter.com/Yazid\">Yazid</a>",
+		"description": "Intersections"
+	},
+	{
+		"date": 5,
+		"credit": "<a href=\"https://twitter.com/jenslabs\">jenslabs</a>",
+		"description": "Debug view"
+	},
+	{
+		"date": 6,
+		"credit": "<a href=\"https://twitter.com/revdancatt\">Daniel Catt</a>",
+		"description": "Steal Like An Artist"
+	},
+	{
+		"date": 7,
+		"credit": "<a href=\"https://twitter.com/ioan1x\">Luca</a>",
+		"description": "Sample a color palette from your favorite movie/album cover"
+	},
+	{
+		"date": 8,
+		"credit": "<a href=\"https://twitter.com/camillerouxart\">Camille Roux</a>",
+		"description": "Signed Distance Functions",
+		"info": "<a href=\"wtsdf\">Piter explains how to SDFs</a><br><a href=\"https://iquilezles.org/articles/distfunctions2d/\">2D distance functions by Inigo Quilez</a><br><a href=\"https://iquilezles.org/articles/distfunctions/\">3D distance functions by Inigo Quilez</a><br><a href=\"https://en.wikipedia.org/wiki/Signed_distance_function\">Wikipedia: Signed Distance Functions</a>"
+	},
+	{
+		"date": 9,
+		"credit": "<a href=\"https://twitter.com/MAKIO135\">Lionel Radisson</a>",
+		"description": "Plants"
+	},
+	{
+		"date": 10,
+		"credit": "<a href=\"https://twitter.com/steviepxyz\">Steve Pikelny (scyclow)</a>",
+		"description": "Generative music",
+		"info": "<a href=\"https://en.wikipedia.org/wiki/Aleatoric_music\">Wikipedia: Aleatoric music</a>"
+	},
+	{
+		"date": 11,
+		"credit": "<a href=\"https://twitter.com/TheBuffED\">Eric Davidson</a>",
+		"description": "Suprematism",
+		"info": "<a href=\"https://en.wikipedia.org/wiki/Suprematism\">Wikipedia: Suprematism</a>"
+	},
+	{
+		"date": 12,
+		"credit": "<a href=\"https://twitter.com/deviparikh\">Devi</a>",
+		"description": "Tessellation",
+		"info": "<a href=\"https://en.wikipedia.org/wiki/Tessellation\">Wikipedia: Tesselation</a><br><a href=\"https://en.wikipedia.org/wiki/List_of_tessellations\">Wikipedia: List of Tesselations</a>"
+	},
+	{
+		"date": 13,
+		"credit": "<a href=\"https://twitter.com/huminaboz\">huminaboz</a>",
+		"description": "Something you've always wanted to learn"
+	},
+	{
+		"date": 14,
+		"credit": "<a href=\"https://twitter.com/mwiederrecht\">Melissa Wiederrecht</a>",
+		"description": "Aesemic",
+		"info": "<a href=\"https://dictionary.cambridge.org/us/dictionary/english/asemic\">Dictionary: Asemic</a><a href=\"https://en.wikipedia.org/wiki/Asemic_writing\">Wikipedia: Asemic writing</a>"
+	},
+	{
+		"date": 15,
+		"credit": "<a href=\"https://twitter.com/rustysniper1\">Jess Hewitt</a>, <a href=\"https://twitter.com/Yazid\">Yazid</a>",
+		"description": "Sine waves",
+		"info": "<a href=\"https://www.desmos.com/calculator/nhbzwkhij3\">Fun with sine waves: 1D wobbly noise</a>"
+	},
+	{
+		"date": 16,
+		"credit": "<a href=\"https://twitter.com/keisans\">Ryan</a>",
+		"description": "Reflection of a reflection"
+	},
+	{
+		"date": 17,
+		"credit": "<a href=\"https://twitter.com/adiotalleviart\">Andrea Diotallevi</a>",
+		"description": "A grid inside a grid inside a grid"
+	},
+	{
+		"date": 18,
+		"credit": "<a href=\"https://twitter.com/Hapiel\">Daniel Simu (hapiel)</a>",
+		"description": "Definitely not a grid"
+	},
+	{
+		"date": 19,
+		"credit": "<a href=\"https://twitter.com/MAKIO135\">Lionel Radisson</a>",
+		"description": "Black and white"
+	},
+	{
+		"date": 20,
+		"credit": "<a href=\"https://twitter.com/artefakt_7\">Artefakt (Artefakt7)</a>",
+		"description": "Art Deco",
+		"info": "<a href=\"https://en.wikipedia.org/wiki/Art_Deco\">Wikipedia: Art Deco</a>"
+	},
+	{
+		"date": 21,
+		"credit": "<a href=\"https://github.com/arikwex\">arikwex</a>",
+		"description": "Persian Rug",
+		"info": "<a href=\"https://en.wikipedia.org/wiki/Persian_carpet\">Wikipedia: Persian carpet</a>"
+	},
+	{
+		"date": 22,
+		"credit": "<a href=\"https://twitter.com/ioan1x\">Luca</a>",
+		"description": "Shadows"
+	},
+	{
+		"date": 23,
+		"credit": "<a href=\"https://twitter.com/Hapiel\">Daniel Simu (hapiel)</a>",
+		"description": "More Moiré",
+		"info": "<a href=\"https://en.wikipedia.org/wiki/Moir%C3%A9_pattern\">Wikipedia: Moiré</a>"
+	},
+	{
+		"date": 24,
+		"credit": "<a href=\"https://twitter.com/Hapiel\">Daniel Simu (hapiel)</a>",
+		"description": "Textile"
+	},
+	{
+		"date": 25,
+		"credit": "<a href=\"https://twitter.com/annaluciacodes\">Anna Lucia</a>",
+		"description": "Yayoi Kusama",
+		"info": "<a href=\"https://en.wikipedia.org/wiki/Yayoi_Kusama\">Wikipedia: Yayoi Kusama</a><a href=\"https://duckduckgo.com/?q=yayoi+kusama&ia=images&iax=images\">Image search: Yayoi Kusama</a>"
+	},
+	{
+		"date": 26,
+		"credit": "<a href=\"https://twitter.com/mwiederrecht\">Melissa Wiederrecht</a>",
+		"description": "My kid could have made that"
+	},
+	{
+		"date": 27,
+		"credit": "<a href=\"https://twitter.com/KaufmanRoni\">Roni</a>",
+		"description": "In the style of Hilma Af Klint",
+		"info": "<a href=\"https://www.wikiart.org/en/hilma-af-klint/all-works#!#filterName:all-paintings-chronologically,resultType:masonry\">Hilma af Klint: List of works</a>"
+	},
+	{
+		"date": 28,
+		"credit": "<a href=\"https://twitter.com/KaufmanRoni\">Roni</a>",
+		"description": "Generative poetry"
+	},
+	{
+		"date": 29,
+		"credit": "<a href=\"https://twitter.com/steviepxyz\">Steve Pikelny (scyclow)</a>, <a href=\"https://twitter.com/Yazid\">Yazid</a>",
+		"description": "Maximalism"
+	},
+	{
+		"date": 30,
+		"credit": "<a href=\"https://twitter.com/steviepxyz\">Steve Pikelny (scyclow)</a>, <a href=\"https://twitter.com/Yazid\">Yazid</a>",
+		"description": "Minimalism"
+	},
+	{
+		"date": 31,
+		"credit": "<a href=\"https://twitter.com/gottapatchemall\">Alex Naka</a>, <a href=\"https://twitter.com/RalenArc\">RalenArc</a>",
+		"description": "Deliberately break one of your previous images, take one of your previous works and ruin it.\n\nAlternatively, remix one of your previous works."
+	}
+]

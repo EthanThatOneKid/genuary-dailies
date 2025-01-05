@@ -1,0 +1,176 @@
+[
+	{
+		"date": 1,
+		"credit": "<a href=\"https://twitter.com/mwiederrecht/\">Melissa Wiederrecht</a> & <a href=\"https://twitter.com/nicoptere\">Nicolas Barradeau</a>",
+		"description": "Particles, lots of them."
+	},
+	{
+		"date": 2,
+		"credit": "<a href=\"https://twitter.com/luisfraguada\">Luis Fraguada</a>",
+		"description": "No palettes.",
+		"info": "Generative colors, procedural colors, emergent colors."
+	},
+	{
+		"date": 3,
+		"credit": "<a href=\"https://strangerintheq.art/\">Stranger in the Q</a>",
+		"description": "Droste effect.",
+		"info": "<a href=\"https://en.wikipedia.org/wiki/Droste_effect\" target=\"_blank\">Wikipedia: Droste effect</a>"
+	},
+	{
+		"date": 4,
+		"credit": "<a href=\"https://piterpasma.nl\">Piter Pasma</a>",
+		"description": "Pixels.",
+		"info": "<a href=\"https://en.wikipedia.org/wiki/Pixel\" target=\"_blank\">Wikipedia: Pixel</a>"
+	},
+	{
+		"date": 5,
+		"credit": "<a href=\"https://twitter.com/mwiederrecht/\">Melissa Wiederrecht</a> & <a href=\"https://piterpasma.nl\">Piter Pasma</a>",
+		"description": "In the style of Vera Molnár (1924-2023).",
+		"info": "<a href=\"https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r\" target=\"_blank\">Wikipedia: Vera Molnár</a>"
+	},
+	{
+		"date": 6,
+		"credit": "<a href=\"https://twitter.com/nicoptere\">Nicolas Barradeau</a>, <a href=\"https://twitter.com/Yazid/\">Yazid</a> & <a href=\"https://jesshewitt.art\">Jess Hewitt</a>",
+		"description": "Screensaver."
+	},
+	{
+		"date": 7,
+		"credit": "<a href=\"https://piterpasma.nl\">Piter Pasma</a>",
+		"description": "Progress bar / indicator / loading animation."
+	},
+	{
+		"date": 8,
+		"credit": "<a href=\"https://darienbrito.com/\">Darien Brito</a>",
+		"description": "Chaotic system."
+	},
+	{
+		"date": 9,
+		"credit": "<a href=\"https://twitter.com/camillerouxart\">Camille Roux</a>",
+		"description": "ASCII.",
+		"info": "The \"ASCII font\" you might see when your computer boots is actually called <a href=\"https://en.wikipedia.org/wiki/Code_page_437\" target=\"_blank\">Code page 437</a>. It is also known as CP437, OEM-US, OEM 437, PC-8, or DOS Latin US."
+	},
+	{
+		"date": 10,
+		"credit": "<a href=\"https://greweb.me/\">greweb</a>",
+		"description": "Hexagonal.",
+		"info": "<a href=\"https://www.redblobgames.com/grids/hexagons/\" target=\"_blank\">Red Blob Games on Hexagonal Grids</a> is an in-depth article if you'd like to learn about hexagonal grids. Not all hexagons come in grids though, so use your creativity!"
+	},
+	{
+		"date": 11,
+		"credit": "<a href=\"https://twitter.com/KaufmanRoni\">Roni Kaufman</a>",
+		"description": "In the style of Anni Albers (1899-1994).",
+		"info": "<a href=\"https://en.wikipedia.org/wiki/Anni_Albers\" target=\"_blank\">Wikipedia: Anni Albers</a>"
+	},
+	{
+		"date": 12,
+		"credit": "<a href=\"https://twitter.com/mwiederrecht/\">Melissa Wiederrecht</a>",
+		"description": "Lava lamp.",
+		"info": "<a href=\"https://en.wikipedia.org/wiki/Lava_lamp\" target=\"_blank\">Wikipedia: Lava lamp</a><br><a href=\"https://www.reddit.com/r/Lavalamps/\" target=\"_blank\">Reddit: /r/Lavalamps</a>"
+	},
+	{
+		"date": 13,
+		"credit": "<a href=\"https://piterpasma.nl\">Piter Pasma</a>",
+		"description": "Wobbly function day.",
+		"info": "<a href=\"https://piterpasma.nl/articles/wobbly\" target=\"_blank\">Wobbly Functions</a>"
+	},
+	{
+		"date": 14,
+		"credit": "<a href=\"https://heeey.art/\">Heeey</a>",
+		"description": "Less than 1KB artwork.",
+		"info": "<a href=\"https://www.gorillasun.de/blog/9-tips-for-tsubuyaki-processing/\">9 tips for Tsubuyaki processing</a>"
+	},
+	{
+		"date": 15,
+		"credit": "<a href=\"https://www.amygoodchild.com/\">Amy Goodchild</a>",
+		"description": "Use a physics library.",
+		"info": "<a href=\"https://thecodingtrain.com/tracks/physics-libraries\" target=\"_blank\">The Coding Train: physics libraries</a>"
+	},
+	{
+		"date": 16,
+		"credit": "<a href=\"https://twitter.com/BruceHolmer\">Bruce Holmer</a> & <a href=\"https:/twitter.com/mjrlowe\">Michael Lowe</a>",
+		"description": "Draw 10 000 of something."
+	},
+	{
+		"date": 17,
+		"credit": "<a href=\"https://twitter.com/mwiederrecht/\">Melissa Wiederrecht</a>",
+		"description": "Inspired by Islamic art.",
+		"info": "<a href=\"https://cs.uwaterloo.ca/~csk/other/starpatterns/\" target=\"_blank\">Islamic star patterns</a>"
+	},
+	{
+		"date": 18,
+		"credit": "<a href=\"https://twitter.com/code_rgb\">Chris Barber</a>",
+		"description": "Bauhaus.",
+		"info": "<a href=\"https://en.wikipedia.org/wiki/Bauhaus\" target=\"_blank\">Wikipedia: Bauhaus</a>"
+	},
+	{
+		"date": 19,
+		"credit": "<a href=\"https://twitter.com/shaderism\">Shaderism</a>",
+		"description": "Flocking."
+	},
+	{
+		"date": 20,
+		"credit": "<a href=\"https://twitter.com/KaufmanRoni\">Roni Kaufman</a>",
+		"description": "Generative typography."
+	},
+	{
+		"date": 21,
+		"credit": "<a href=\"https://neel.sh\">Neel Shivdasani</a>",
+		"description": "Use a library that you haven't used before."
+	},
+	{
+		"date": 22,
+		"credit": "<a href=\"https://twitter.com/Paolo_Curtoni\">Paolo Curtoni</a>",
+		"description": "Point - line - plane.",
+		"info": "<a href=\"https://www.wassilykandinsky.net/book-117.php\" target=\"_blank\">Wassily Kandinsky - Point and line to plane</a>"
+	},
+	{
+		"date": 23,
+		"credit": "<a href=\"https://twitter.com/marcedwards\">Marc Edwards</a>",
+		"description": "64×64."
+	},
+	{
+		"date": 24,
+		"credit": "<a href=\"https://twitter.com/zjorge\">Jorge Ledezma</a>",
+		"description": "Impossible objects (undecided geometry)."
+	},
+	{
+		"date": 25,
+		"credit": "<a href=\"https://piterpasma.nl\">Piter Pasma</a>",
+		"description": "If you like generative art, you probably have some photos on your phone of cool looking patterns, textures, shapes or things that you've seen. You might have even thought, \"I should try to recreate this with code\". Today is the day."
+	},
+	{
+		"date": 26,
+		"credit": "<a href=\"https://monokai.nl/\">Monokai</a>",
+		"description": "Grow a seed."
+	},
+	{
+		"date": 27,
+		"credit": "<a href=\"https://www.amygoodchild.com/\">Amy Goodchild</a>",
+		"description": "Code for one hour. At the one hour mark, you're done.",
+		"info": "Click <a href=\"https://www.google.com/search?q=1+hour+timer\" target=\"_blank\">here</a> to find out how long an hour takes. PRO-TIP: Use the progress indicator from Genuary 7th!"
+	},
+	{
+		"date": 28,
+		"credit": "<a href=\"https://twitter.com/mwiederrecht/\">Melissa Wiederrecht</a>",
+		"description": "Skeuomorphism.",
+		"info": "<a href=\"https://en.wikipedia.org/wiki/Skeuomorph\" target=\"_blank\">Wikipedia on Skeuomorphs</a>"
+	},
+	{
+		"date": 29,
+		"credit": "<a href=\"https://twitter.com/mwiederrecht/\">Melissa Wiederrecht</a> & <a href=\"https://twitter.com/camillerouxart\">Camille Roux</a>",
+		"description": "Signed Distance Functions (if we keep trying once per year, eventually we will be good at it!).",
+		"info": "<a href=\"https://iquilezles.org/articles/distfunctions2d/\" target=\"_blank\">2D distance functions by Inigo Quilez</a>"
+	},
+	{
+		"date": 30,
+		"credit": "<a href=\"https://twitter.com/mwiederrecht/\">Melissa Wiederrecht</a>",
+		"description": "Shaders.",
+		"info": "Use the GPU. I did a <a href=\"https://www.youtube.com/watch?v=EGvuSOvuREQ\" target=\"_blank\">Shader Workshop</a> a while back where I explain how to code a shader in WebGL2 from scratch."
+	},
+	{
+		"date": 31,
+		"credit": "<a href=\"https://neel.sh\">Neel Shivdasani</a> & <a href=\"https://monokai.nl/\">Monokai</a>",
+		"description": "Generative music / Generative audio / Generative sound.",
+		"info": "While many of you probably know that Ambient music often employs generative strategies, Psy-Trance is another genre that uses generative techniques. Check out e.g. <a href=\"https://www.youtube.com/results?search_query=dash+glitch+generative\" target=\"_blank\">Dash Glitch on YouTube</a>"
+	}
+]
