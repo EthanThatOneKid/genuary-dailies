@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import GenuarySearch from '$lib/components/genuary-search.svelte';
 	import { generateCalendar } from './calendar';
 
 	let { data }: { data: PageData } = $props();
@@ -13,17 +14,10 @@
 </svelte:head>
 
 <div class="mx-auto max-w-4xl p-4">
-	<h2 class="mb-4 text-center text-2xl font-bold">
-		<a
-			href="https://bsky.app/profile/{data.username}"
-			class="text-blue-600"
-			target="_blank"
-			rel="noopener noreferrer">@{data.username}</a
-		>
-		{data.year}
-	</h2>
+	<GenuarySearch username={data.username} year={data.year} />
+
 	<div class="grid grid-cols-2 gap-2 sm:grid-cols-7">
-		{#each ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] as day, index}
+		{#each ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] as day}
 			<div class="hidden text-center font-semibold sm:block">{day}</div>
 		{/each}
 		{#each calendar as week}
