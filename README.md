@@ -28,14 +28,11 @@ _Genuary Dailies_ is a web app that visualizes Genuary posts of a user on social
 
 Technologies used:
 
-- [Svelte](https://svelte.dev/)
-- [SvelteKit](https://svelte.dev/docs/kit/introduction)
+- [Svelte](https://svelte.dev/)/[SvelteKit](https://svelte.dev/docs/kit/introduction)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Deno](https://deno.com/)
-- [Deno Deploy](https://deno.com/deploy)
+- [Deno](https://deno.com/)/[Deno Deploy](https://deno.com/deploy)
 - [Bluesky HTTP API](https://docs.bsky.app/docs/category/http-reference)
-- [Twitter v2 API](https://developer.x.com/en/docs/x-api)
 
 ## Development
 
