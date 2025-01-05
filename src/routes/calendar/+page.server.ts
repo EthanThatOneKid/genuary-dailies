@@ -1,6 +1,6 @@
 import type { PageServerLoad } from './$types';
 import type { GenuaryPrompt } from '$lib/genuary/prompt';
-import { getBskyPosts } from '$lib/search/bsky';
+import { getBlueskyPosts } from '$lib/search/bluesky';
 import { getTwitterPosts } from '$lib/search/twitter';
 import genuary2022 from '$lib/genuary/2022.json';
 import genuary2023 from '$lib/genuary/2023.json';
@@ -42,8 +42,8 @@ export const load: PageServerLoad = async ({ url }) => {
 
 function getPosts(username: string, year: number, platform: string) {
 	switch (platform) {
-		case 'bsky': {
-			return getBskyPosts(username, year);
+		case 'bluesky': {
+			return getBlueskyPosts(username, year);
 		}
 
 		case 'twitter': {

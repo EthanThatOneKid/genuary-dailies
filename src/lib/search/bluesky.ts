@@ -4,7 +4,7 @@ import '@atcute/bluesky/lexicons';
 
 const xrpc = new XRPC({ handler: simpleFetchHandler({ service: 'https://api.bsky.app' }) });
 
-export const getBskyPosts: GenuarySearcher = async (username: string, year: number) => {
+export const getBlueskyPosts: GenuarySearcher = async (username: string, year: number) => {
 	const { data } = await search(username, year);
 	return Object.fromEntries(
 		Object.entries(

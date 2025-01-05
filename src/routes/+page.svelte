@@ -57,7 +57,7 @@
 							aria-label="Platform"
 							class="col-start-1 row-start-1 w-full appearance-none rounded-md py-1.5 pl-3 pr-7 text-base text-gray-500 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
 						>
-							<option value="bsky">Bluesky</option>
+							<option value="bluesky">Bluesky</option>
 							<option value="twitter">Twitter/X</option>
 						</select>
 						<svg
