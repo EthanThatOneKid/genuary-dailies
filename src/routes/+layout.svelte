@@ -37,10 +37,10 @@
 		<div class="container mx-auto px-4 py-8">
 			<div class="space-y-4 text-center">
 				<p class="text-sm text-slate-600">
-					GENUARY was created by
-					<a href="https://genuary.art" class="text-blue-600 hover:underline">
-						the GENUARY team
-					</a>. This website is not affiliated with the GENUARY team.
+					Genuary Dailies is not affiliated with <a
+						href="https://genuary.art"
+						class="text-blue-600 hover:underline">Genuary</a
+					> or its creators.
 				</p>
 			</div>
 		</div>
