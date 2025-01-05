@@ -22,34 +22,28 @@
 		>
 		{data.year}
 	</h2>
-	<div class="grid grid-cols-7 gap-2">
+	<div class="grid grid-cols-2 gap-2 sm:grid-cols-7">
 		{#each ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] as day}
 			<div class="text-center font-semibold">{day}</div>
 		{/each}
 		{#each calendar as week}
 			{#each week as date}
 				{#if date !== null}
-					{@const genuaryPrompt = data.prompts.find((p) => p.date === date)!}
-					{#if data.posts[date]}
+					{@const { description } = data.prompts.find((p) => p.date === date)!}
+					{@const post = data.posts[date]}
+					{@const content = `<span class="text-ellipsis text-sm">${date}<br /><span title="${description}">${description}</span></span>`}
+					{#if post}
 						<a
-							href={data.posts[date].at(0)}
+							href={post.at(0)}
 							target="_blank"
 							rel="noopener noreferrer"
 							class="block h-32 overflow-hidden border bg-blue-100 p-2"
 						>
-							<span class="text-ellipsis text-sm text-blue-600"
-								>{date}<br /><span title={genuaryPrompt.description}
-									>{@html genuaryPrompt.description}</span
-								></span
-							>
+							{@html content}
 						</a>
 					{:else}
 						<div class="h-32 overflow-hidden border bg-gray-100 p-2">
-							<span class="text-ellipsis text-sm"
-								>{date}<br /><span title={genuaryPrompt.description}
-									>{@html genuaryPrompt.description}</span
-								></span
-							>
+							{@html content}
 						</div>
 					{/if}
 				{:else}
