@@ -1,5 +1,5 @@
 import type { PageServerLoad } from './$types';
-// import { lookupObject, isActor } from '@fedify/fedify/vocab';
+import { lookupObject, isActor } from '@fedify/fedify/vocab';
 import { genuaryPrompt } from '$lib/genuary/prompt';
 import { getBlueskyPosts } from '$lib/genuary/search';
 
@@ -9,10 +9,11 @@ export const load: PageServerLoad = async ({ url }) => {
 		throw new Error('username is required');
 	}
 
-	// const actor = await lookupObject('@' + username);
-	// if (isActor(actor)) {
-	// 	console.dir({ actor }, { depth: null });
-	// }
+	// TODO: Figure out how to find posts for a user.
+	const actor = await lookupObject('@' + username);
+	if (isActor(actor)) {
+		console.dir({ actor }, { depth: null });
+	}
 
 	const yearString = url.searchParams.get('year');
 	if (yearString === null) {
@@ -26,7 +27,6 @@ export const load: PageServerLoad = async ({ url }) => {
 
 	const prompts = genuaryPrompt(year);
 
-	// TODO: Replace platform with detecting the platform from the username.
 	const platform = url.searchParams.get('platform') ?? 'bluesky';
 	const posts = await getPosts(username, year, platform);
 
