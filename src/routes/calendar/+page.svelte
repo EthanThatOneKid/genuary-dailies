@@ -23,11 +23,11 @@
 		{data.year}
 	</h2>
 	<div class="grid grid-cols-2 gap-2 sm:grid-cols-7">
-		{#each ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] as day}
-			<div class="text-center font-semibold">{day}</div>
+		{#each ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] as day, index}
+			<div class="hidden text-center font-semibold sm:block">{day}</div>
 		{/each}
 		{#each calendar as week}
-			{#each week as date}
+			{#each week as date, dayIndex}
 				{#if date !== null}
 					{@const { description } = data.prompts.find((p) => p.date === date)!}
 					{@const post = data.posts[date]}
@@ -39,10 +39,16 @@
 							rel="noopener noreferrer"
 							class="block h-32 overflow-hidden border bg-blue-100 p-2"
 						>
+							<span class="block font-semibold sm:hidden"
+								>{['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][dayIndex]}</span
+							>
 							{@html content}
 						</a>
 					{:else}
 						<div class="h-32 overflow-hidden border bg-gray-100 p-2">
+							<span class="block font-semibold sm:hidden"
+								>{['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][dayIndex]}</span
+							>
 							{@html content}
 						</div>
 					{/if}

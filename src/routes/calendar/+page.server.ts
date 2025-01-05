@@ -1,7 +1,6 @@
 import type { PageServerLoad } from './$types';
-import type { GenuaryPrompt } from '$lib/genuary/prompt';
 import { genuaryPrompt } from '$lib/genuary/prompt';
-import { getBlueskyPosts, getTwitterPosts } from '$lib/genuary/search';
+import { getBlueskyPosts } from '$lib/genuary/search';
 
 export const load: PageServerLoad = async ({ url }) => {
 	const username = url.searchParams.get('username');
@@ -19,7 +18,8 @@ export const load: PageServerLoad = async ({ url }) => {
 		throw new Error('Invalid year');
 	}
 
-	const prompts: GenuaryPrompt[] = genuaryPrompt(year);
+	const prompts = genuaryPrompt(year);
+
 	const platform = url.searchParams.get('platform') ?? 'bluesky';
 	const posts = await getPosts(username, year, platform);
 
@@ -30,10 +30,6 @@ function getPosts(username: string, year: number, platform: string) {
 	switch (platform) {
 		case 'bluesky': {
 			return getBlueskyPosts(username, year);
-		}
-
-		case 'twitter': {
-			return getTwitterPosts(username, year);
 		}
 
 		default: {
