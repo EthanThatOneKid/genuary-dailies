@@ -1,6 +1,6 @@
 # Genuary Dailies
 
-Visualizes Genuary posts of a user on social media.
+Visualizes daily Genuary posts of a user on social media.
 
 ## Genuary
 

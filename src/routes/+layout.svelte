@@ -4,6 +4,11 @@
 	let { children } = $props();
 </script>
 
+<svelte:head>
+	<title>Genuary Dailies</title>
+	<meta name="description" content="Visualize daily Genuary posts of a user on social media." />
+</svelte:head>
+
 <div class="flex min-h-screen flex-col bg-slate-50">
 	<header class="border-b bg-white">
 		<nav class="container mx-auto flex h-16 items-center justify-between px-4">
