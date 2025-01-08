@@ -5,8 +5,6 @@
     "npm:@atcute/client@^2.0.6": "2.0.6",
     "npm:@eslint/compat@^1.2.3": "1.2.4_eslint@9.17.0",
     "npm:@eslint/js@^9.17.0": "9.17.0",
-    "npm:@prisma/client@^6.1.0": "6.1.0_prisma@6.1.0",
-    "npm:@prisma/extension-accelerate@^1.2.1": "1.2.1_@prisma+client@6.1.0__prisma@6.1.0_prisma@6.1.0",
     "npm:@sveltejs/adapter-auto@3": "3.3.1_@sveltejs+kit@2.15.1__@sveltejs+vite-plugin-svelte@4.0.4___svelte@5.16.1____acorn@8.14.0___vite@5.4.11____@types+node@22.10.5___@types+node@22.10.5__svelte@5.16.1___acorn@8.14.0__vite@5.4.11___@types+node@22.10.5__@types+node@22.10.5_@sveltejs+vite-plugin-svelte@4.0.4__svelte@5.16.1___acorn@8.14.0__vite@5.4.11___@types+node@22.10.5__@types+node@22.10.5_svelte@5.16.1__acorn@8.14.0_vite@5.4.11__@types+node@22.10.5_@types+node@22.10.5",
     "npm:@sveltejs/adapter-node@^5.2.11": "5.2.11_@sveltejs+kit@2.15.1__@sveltejs+vite-plugin-svelte@4.0.4___svelte@5.16.1____acorn@8.14.0___vite@5.4.11____@types+node@22.10.5___@types+node@22.10.5__svelte@5.16.1___acorn@8.14.0__vite@5.4.11___@types+node@22.10.5__@types+node@22.10.5_rollup@4.29.1_@sveltejs+vite-plugin-svelte@4.0.4__svelte@5.16.1___acorn@8.14.0__vite@5.4.11___@types+node@22.10.5__@types+node@22.10.5_svelte@5.16.1__acorn@8.14.0_vite@5.4.11__@types+node@22.10.5_@types+node@22.10.5",
     "npm:@sveltejs/kit@2": "2.15.1_@sveltejs+vite-plugin-svelte@4.0.4__svelte@5.16.1___acorn@8.14.0__vite@5.4.11___@types+node@22.10.5__@types+node@22.10.5_svelte@5.16.1__acorn@8.14.0_vite@5.4.11__@types+node@22.10.5_@types+node@22.10.5",
@@ -20,7 +18,6 @@
     "npm:prettier-plugin-svelte@^3.2.6": "3.3.2_prettier@3.4.2_svelte@5.16.1__acorn@8.14.0",
     "npm:prettier-plugin-tailwindcss@~0.6.5": "0.6.9_prettier@3.4.2_prettier-plugin-svelte@3.3.2__prettier@3.4.2__svelte@5.16.1___acorn@8.14.0_svelte@5.16.1__acorn@8.14.0",
     "npm:prettier@^3.3.2": "3.4.2",
-    "npm:prisma@^6.1.0": "6.1.0",
     "npm:svelte-check@4": "4.1.1_svelte@5.16.1__acorn@8.14.0_typescript@5.7.2",
     "npm:svelte@5": "5.16.1_acorn@8.14.0",
     "npm:tailwindcss@^3.4.9": "3.4.17_postcss@8.4.49",
@@ -249,47 +246,6 @@
     },
     "@polka/url@1.0.0-next.28": {
       "integrity": "sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw=="
-    },
-    "@prisma/client@6.1.0_prisma@6.1.0": {
-      "integrity": "sha512-AbQYc5+EJKm1Ydfq3KxwcGiy7wIbm4/QbjCKWWoNROtvy7d6a3gmAGkKjK0iUCzh+rHV8xDhD5Cge8ke/kiy5Q==",
-      "dependencies": [
-        "prisma"
-      ]
-    },
-    "@prisma/debug@6.1.0": {
-      "integrity": "sha512-0himsvcM4DGBTtvXkd2Tggv6sl2JyUYLzEGXXleFY+7Kp6rZeSS3hiTW9mwtUlXrwYbJP6pwlVNB7jYElrjWUg=="
-    },
-    "@prisma/engines-version@6.1.0-21.11f085a2012c0f4778414c8db2651556ee0ef959": {
-      "integrity": "sha512-PdJqmYM2Fd8K0weOOtQThWylwjsDlTig+8Pcg47/jszMuLL9iLIaygC3cjWJLda69siRW4STlCTMSgOjZzvKPQ=="
-    },
-    "@prisma/engines@6.1.0": {
-      "integrity": "sha512-GnYJbCiep3Vyr1P/415ReYrgJUjP79fBNc1wCo7NP6Eia0CzL2Ot9vK7Infczv3oK7JLrCcawOSAxFxNFsAERQ==",
-      "dependencies": [
-        "@prisma/debug",
-        "@prisma/engines-version",
-        "@prisma/fetch-engine",
-        "@prisma/get-platform"
-      ]
-    },
-    "@prisma/extension-accelerate@1.2.1_@prisma+client@6.1.0__prisma@6.1.0_prisma@6.1.0": {
-      "integrity": "sha512-QicnMeyqL226ilT3vvRsFAqPeIdqHGKR4c25CoK5zZ1tNIv8egfgpD1gCKqOGmfAz0pIKQnMuJU3eNg9KItC7A==",
-      "dependencies": [
-        "@prisma/client"
-      ]
-    },
-    "@prisma/fetch-engine@6.1.0": {
-      "integrity": "sha512-asdFi7TvPlEZ8CzSZ/+Du5wZ27q6OJbRSXh+S8ISZguu+S9KtS/gP7NeXceZyb1Jv1SM1S5YfiCv+STDsG6rrg==",
-      "dependencies": [
-        "@prisma/debug",
-        "@prisma/engines-version",
-        "@prisma/get-platform"
-      ]
-    },
-    "@prisma/get-platform@6.1.0": {
-      "integrity": "sha512-ia8bNjboBoHkmKGGaWtqtlgQOhCi7+f85aOkPJKgNwWvYrT6l78KgojLekE8zMhVk0R9lWcifV0Pf8l3/15V0Q==",
-      "dependencies": [
-        "@prisma/debug"
-      ]
     },
     "@rollup/plugin-commonjs@28.0.2_rollup@4.29.1_picomatch@4.0.2": {
       "integrity": "sha512-BEFI2EDqzl+vA1rl97IDRZ61AIwGH093d9nz8+dThxJNH8oSoB7MjWvPCX3dkaK1/RCJ/1v/R1XB15FuSs0fQw==",
@@ -1400,13 +1356,6 @@
     "prettier@3.4.2": {
       "integrity": "sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ=="
     },
-    "prisma@6.1.0": {
-      "integrity": "sha512-aFI3Yi+ApUxkwCJJwyQSwpyzUX7YX3ihzuHNHOyv4GJg3X5tQsmRaJEnZ+ZyfHpMtnyahhmXVfbTZ+lS8ZtfKw==",
-      "dependencies": [
-        "@prisma/engines",
-        "fsevents"
-      ]
-    },
     "punycode@2.3.1": {
       "integrity": "sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg=="
     },
@@ -1767,8 +1716,6 @@
         "npm:@atcute/client@^2.0.6",
         "npm:@eslint/compat@^1.2.3",
         "npm:@eslint/js@^9.17.0",
-        "npm:@prisma/client@^6.1.0",
-        "npm:@prisma/extension-accelerate@^1.2.1",
         "npm:@sveltejs/adapter-auto@3",
         "npm:@sveltejs/adapter-node@^5.2.11",
         "npm:@sveltejs/kit@2",
@@ -1782,7 +1729,6 @@
         "npm:prettier-plugin-svelte@^3.2.6",
         "npm:prettier-plugin-tailwindcss@~0.6.5",
         "npm:prettier@^3.3.2",
-        "npm:prisma@^6.1.0",
         "npm:svelte-check@4",
         "npm:svelte@5",
         "npm:tailwindcss@^3.4.9",
